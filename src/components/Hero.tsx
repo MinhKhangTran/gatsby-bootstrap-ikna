@@ -19,7 +19,7 @@ const Hero = () => {
       className="d-flex align-items-center justify-content-center"
     >
       <Container>
-        <Row className="justify-content-between gx-5">
+        <Row className="justify-content-between gx-0 gx-lg-5">
           <Col lg={6} className="d-flex flex-column justify-content-center">
             <h1>Learning can be so easy!</h1>
             <p className="lead">
