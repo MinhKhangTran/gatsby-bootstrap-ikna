@@ -1,0 +1,8 @@
+@mixin gradient {
+  background: rgb(255, 229, 208);
+  background: linear-gradient(
+    45deg,
+    rgba(255, 229, 208, 1) 0%,
+    rgba(254, 203, 161, 1) 100%
+  );
+}

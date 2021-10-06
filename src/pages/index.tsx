@@ -13,7 +13,6 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Homepage" />
-      <h1 className="bg-orange-100 text-white">Hi Bootstrap and Gatsby</h1>
       <Hero />
       <Feat />
       <Testimonials />

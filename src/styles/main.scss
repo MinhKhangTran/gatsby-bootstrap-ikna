@@ -5,6 +5,7 @@
 // redefine variables not dependent on anything else
 
 // global variables
+$primary: #fd7e14;
 
 // theme color variables
 
@@ -51,6 +52,8 @@ $orange-colors: (
 // import bootstrap whole sass lib (incorporates all above redefined vars & values)
 @import "~bootstrap/scss/bootstrap";
 
+// helpers
+@import "./helpers";
 //import custom components
 @import "./components/cta";
 @import "./components/faq";
