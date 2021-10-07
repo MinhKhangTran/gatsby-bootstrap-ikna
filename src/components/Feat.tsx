@@ -33,7 +33,7 @@ const Feat = () => {
     },
   ];
   return (
-    <section id="feature" className="bg-orange-100 section">
+    <section id="feature" className=" section">
       <Container>
         <h2>
           Get started <span className="bg-orange-400 px-1">frictionless</span>!

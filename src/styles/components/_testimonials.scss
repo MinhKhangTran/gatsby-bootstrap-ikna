@@ -1,0 +1,27 @@
+#testimonials {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.testi_icon:first-child {
+  margin-left: 1rem;
+}
+.company {
+  position: relative;
+}
+.testi_quote {
+  position: absolute;
+  top: 10%;
+  left: 1%;
+}
+// Slider
+.slick-arrow {
+  display: none !important;
+}
+.slick-dots li button:before {
+  font-size: 1.5rem !important;
+  color: $orange-700 !important;
+}
+.slick-dots li.slick-active button:before {
+  color: $orange-400 !important;
+}
