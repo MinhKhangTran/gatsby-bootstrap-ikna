@@ -53,6 +53,10 @@ $orange-colors: (
 @import "~bootstrap/scss/bootstrap";
 
 // globals
+.section {
+  padding-top: 5.5rem;
+  padding-bottom: 2rem;
+}
 
 //Scrollbar
 ::selection {

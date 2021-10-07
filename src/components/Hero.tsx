@@ -11,12 +11,11 @@ import {
 
 const Hero = () => {
   const data = useStaticQuery(query);
-  console.log(data);
 
   return (
     <section
       id="hero"
-      className="d-flex align-items-center justify-content-center"
+      className="section d-flex align-items-center justify-content-center"
     >
       <Container>
         <Row className="justify-content-between gx-0 gx-lg-5">
