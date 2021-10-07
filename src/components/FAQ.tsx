@@ -12,7 +12,7 @@ const FAQ = () => {
           Enamel pin salvia tilde, twee godard food truck butcher cloud bread
           retro activated charcoal.
         </p>
-        <Accordion defaultActiveKey="0">
+        <Accordion defaultActiveKey="0" flush>
           <Accordion.Item eventKey="0">
             <Accordion.Header>Question #1</Accordion.Header>
             <Accordion.Body>
