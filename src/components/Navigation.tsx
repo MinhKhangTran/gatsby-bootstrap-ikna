@@ -5,7 +5,7 @@ import logo from "../images/LOGO.svg";
 
 const Navigation = () => {
   return (
-    <Navbar id="mainNav" fixed="top" bg="transparent" expand="lg">
+    <Navbar id="mainNav" fixed="top" bg="white" expand="lg">
       <Container>
         <Link to="/" className="navbar-brand">
           <img src={logo} alt="ikna" />
