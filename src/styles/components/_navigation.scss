@@ -2,7 +2,7 @@
   height: 2rem;
 }
 .nav-link.active{
-  color:$primary;
+  color:$primary !important;
 }
 @media screen and (min-width: 992px) {
   #mainNav {
