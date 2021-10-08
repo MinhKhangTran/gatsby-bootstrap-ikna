@@ -1,7 +1,38 @@
 #cta {
   padding-top: 6rem;
   padding-bottom: 6rem;
+
   h2 {
     font-weight: 500;
+  }
+}
+.users_wrapper {
+  display: flex;
+  width: 75%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  .user {
+    /*
+  use
+  33.33% grid of 3
+  25%    grid of 4
+  20%    grid of 5
+  16.66% grid of 6
+  thanks to https://codepen.io/pazuul/pen/goozNN
+  */
+    flex: 0 0 calc(20%);
+    margin: 1rem 0;
+  }
+  img {
+    border-radius: 50%;
+    height: 45px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .users_wrapper {
+    img {
+      height: 75px;
+    }
   }
 }

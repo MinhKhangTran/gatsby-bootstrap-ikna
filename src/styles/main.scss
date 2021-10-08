@@ -77,6 +77,10 @@ $orange-colors: (
   background: #0e1d2c;
   border-radius: 10px;
 }
+#cta {
+  background-color: $orange-100;
+  background-image: url("../images/brushed-alum.png");
+}
 
 // helpers
 @import "./helpers";
