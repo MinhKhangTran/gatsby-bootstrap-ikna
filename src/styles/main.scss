@@ -81,6 +81,17 @@ $orange-colors: (
   background-color: $orange-100;
   background-image: url("../images/brushed-alum.png");
 }
+.back_to_top {
+  position: fixed;
+  width: 100%;
+  left: 90%;
+  bottom: 50px;
+  height: 20px;
+  font-size: 3rem;
+  z-index: 1;
+  cursor: pointer;
+  color: $primary;
+}
 
 // helpers
 @import "./helpers";
