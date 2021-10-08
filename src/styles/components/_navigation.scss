@@ -1,6 +1,9 @@
 #mainNav img {
   height: 2rem;
 }
+.nav-link.active{
+  color:$primary;
+}
 @media screen and (min-width: 992px) {
   #mainNav {
     background-color: transparent !important;
