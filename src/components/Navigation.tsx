@@ -32,6 +32,7 @@ const Navigation = () => {
         bg="white"
         expand="lg"
         className={`${scrolled && "nav_scrolled"}`}
+        collapseOnSelect
       >
         <Container>
           <Link to="/" className="navbar-brand">
